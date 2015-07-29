@@ -1,0 +1,189 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@font-face {
+    font-family: RobotoLight;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+html {
+    width: 100%;
+height: 100%;
+}
+body {
+    width: 100%;
+height: 100%;
+background-color: #ecf0f1;
+font-family: RobotoLight;
+}
+
+
+
+@media(min-width:767px) {
+.navbar {
+padding: 20px 0;
+
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+padding: 0px;
+}
+}
+
+
+
+
+.twitter-section {
+   padding-top: 100px;
+    text-align: left;
+   background-color: #ecf0f1;
+}
+.twitter-section .row {
+
+}
+.publish {
+  padding-top: 100px;
+}
+.text-center {
+  vertical-align: center;
+}
+
+/*.fb-update {
+     background-color: #ecf0f1;
+      border-bottom: solid gray 1px;
+    }
+    .fb-home {
+     background-color: #e74c3c;
+      border-bottom: solid gray 1px;
+
+    }*/
+    .fb-home p{
+      color: black;
+    }
+   .fb-home a {
+      color:#1abc9c;
+      text-decoration: none;
+    }
+    .fb-home a:hover{
+      text-decoration: underline;
+    }
+    .time {
+      font-size: 9px;
+       font-weight: bold;
+       float: left;
+    }
+   .fbhr{
+      height:1px;
+      color:rgba(142, 68, 173,1.0);
+      background-color:rgba(142, 68, 173,1.0);
+    }
+#content
+{
+width:450px; height:30px;
+border:solid 1px #ec5a62;
+font-size:14px;
+resize:none;
+
+}
+/*#button
+{
+background-color:#006699;
+color:#ffffff;
+font-size:13px;
+font-weight:bold;
+
+}*/
+
+#button_block
+{
+display:none;
+padding-top: 20px;
+}
+.fb-update{
+  background-color:white;
+ margin-bottom: 20px;
+ min-height: 150px;
+
+}
+.profile {
+
+}
+.proNamDat{
+   padding-left: 15px;
+  padding-top: 15px;
+}
+
+
+.post-container {
+    margin: 20px 20px 0 0;
+     padding-left: 15px;
+  padding-top: 15px;
+
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+  padding-left: 5px;
+    float:left;
+    font-family: RalewayRegular;
+
+}
+.content {
+
+
+}
+.tw-update{
+  background-color:white;
+ margin-bottom: 20px;
+ min-height: 150px;
+
+}
+.post-container2 {
+    margin: 20px 20px 0 0;
+     padding-left: 15px;
+  padding-top: 15px;
+
+}
+.post-thumb2 {
+    float: left
+}
+.post-thumb2 img {
+    display: block
+}
+.post-content2 {
+    padding-left: 5px;
+    float:left;
+    font-family: RalewayRegular;
+
+}
+.tweet{
+  float:left;
+}
+.ui-state-hover0{
+  background: #55ACEE;
+}
+.ui-state-hover1{
+  background: #3B5998;
+}
+
+ .fa-facebook-official {
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #55ACEE;
+}
+#button {
+  visibility:hidden;
+}
